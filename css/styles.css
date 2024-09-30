@@ -1,0 +1,221 @@
+/* Common Styles */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Adds vertical spacing and centers the image */
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF; 
+}
+
+.container { 
+    max-width: 1158px; 
+    }    
+
+/* Common Styles */
+
+/* Header Styles */
+
+.page-logo {
+font-family: "Raleway", sans-serif;
+color: #4d5ae5;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: left;
+text-transform: uppercase;
+}
+
+.page-logo-studio {
+color: #2e2f42;
+}
+
+.menu-item, .menu-item-studio {
+color:#2e2f42;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus {
+color: #404bbf;
+}
+
+.address {
+font-style: normal;
+}
+
+.address-mail {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.menu-address-link:hover,
+.menu-address-link:focus {
+color: #404bbf;
+}
+
+/* Hero Styles */
+
+.hero {
+background-color: #2E2F42;
+}
+
+.hero-header {
+color: #FFFFFF;
+background-color: #2E2F42;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.hero-button {
+color: #FFFFFF;
+background-color: #4D5AE5;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.hero-button:hover, .hero-button:focus {
+background-color: #404BBF;
+}
+
+/* Hero Styles */
+
+/* Section 2 Styles */
+
+.features-menu-item {
+color:#2e2f42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.features-menu-item-descr {
+    color:#434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Section 2 Styles */
+
+/* Section 3 Styles */
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.team-header {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-menu {
+    background-color: #FFFFFF;
+}
+
+.team-menu-item {
+    color:#2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-menu-item-descr {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Section 3 Styles */
+
+/* Section 4 Styles */
+
+.portfolio-header {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portfolio-menu-item {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-menu-item-descr {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Section 4 Styles */
+
+/* Footer */
+
+.footer {
+   background-color: #2e2f42; 
+}
+
+.page-logo-studio-footer {
+    color: #f4f4fd;
+}
+
+.footer-descr {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
