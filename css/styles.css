@@ -116,6 +116,8 @@ font-style: normal;
 
 .hero {
 background-color: #2E2F42;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .hero-header {
@@ -125,6 +127,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
+max-width: 496px;
 }
 
 .hero-button {
@@ -134,6 +137,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -144,12 +151,28 @@ background-color: #404BBF;
 
 /* Section 2 Styles */
 
+.team-features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-header {
+    .visually-hidden;
+}
+
+.features-menu {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+
 .features-menu-item {
 color:#2e2f42;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .features-menu-item-descr {
