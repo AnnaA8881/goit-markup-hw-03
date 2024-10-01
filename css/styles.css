@@ -38,7 +38,10 @@ body {
 }
 
 .container { 
-    max-width: 1158px; 
+    max-width: 1158px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
     }    
 
 /* Common Styles */
@@ -91,6 +94,19 @@ color: #404bbf;
 
 /* Hero Styles */
 
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.page-logo {
+    margin-right: 76px;
+}
+
+.menu {
+    display: flex;
+}
+
 .hero {
 background-color: #2E2F42;
 }
@@ -102,6 +118,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .hero-button {
