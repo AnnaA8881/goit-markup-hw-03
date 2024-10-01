@@ -85,6 +85,9 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
+}
+
+.menu-item-link {
 padding-top: 24px;
 padding-bottom: 24px;
 }
