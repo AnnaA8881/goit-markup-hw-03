@@ -156,16 +156,18 @@ background-color: #404BBF;
     padding-bottom: 120px;
 }
 
-.features-header {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
-}
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .features-list {
     display: flex;
