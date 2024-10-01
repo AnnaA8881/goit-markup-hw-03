@@ -160,9 +160,12 @@ background-color: #404BBF;
     .visually-hidden;
 }
 
-.features-menu {
+.features-list {
     display: flex;
     gap: 24px;
+}
+
+.features-menu {
     width: calc((100% - 72px) / 4);
 }
 
