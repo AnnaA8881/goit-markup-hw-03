@@ -48,6 +48,15 @@ body {
 
 /* Header Styles */
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
 .page-logo {
 font-family: "Raleway", sans-serif;
 color: #4d5ae5;
@@ -57,6 +66,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 text-transform: uppercase;
+margin-right: 76px;
 }
 
 .page-logo-studio {
@@ -70,6 +80,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
+padding: 24px 0;
 }
 
 .menu-item-link:hover,
@@ -81,10 +92,9 @@ color: #404bbf;
 font-style: normal;
 }
 
-.address-mail {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.menu-address {
+    display: flex;
+    gap: 40px;
 }
 
 .menu-address-link:hover,
@@ -92,20 +102,13 @@ letter-spacing: 0.02em;
 color: #404bbf;
 }
 
+.address-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
 /* Hero Styles */
-
-.page-nav {
-    display: flex;
-    align-items: center;
-}
-
-.page-logo {
-    margin-right: 76px;
-}
-
-.menu {
-    display: flex;
-}
 
 .hero {
 background-color: #2E2F42;
@@ -118,7 +121,6 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-border-bottom: 1px solid #e7e9fc;
 }
 
 .hero-button {
