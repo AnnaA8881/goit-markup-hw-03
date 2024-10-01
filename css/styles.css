@@ -225,6 +225,11 @@ margin-bottom: 8px;
     border-radius: 0px 0px 4px 4px;
 }
 
+.container-team-menu-item-team-menu-item-descr {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .team-menu-item {
     color:#2e2f42;
     font-weight: 500;
