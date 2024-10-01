@@ -274,7 +274,7 @@ margin-bottom: 8px;
     row-gap: 48px;
 }
 
-.portfolio-menu-banking-app {
+.portfolio-menu {
     width: calc((100% - 48px) / 3);
 }
 
