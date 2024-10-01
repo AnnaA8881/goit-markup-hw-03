@@ -156,11 +156,7 @@ background-color: #404BBF;
     padding-bottom: 120px;
 }
 
-.features-header {
-    .visually-hidden;
-}
-
-.features-list {
+.features-menu {
     display: flex;
     gap: 24px;
 }
