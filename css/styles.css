@@ -47,6 +47,10 @@ body {
 
 /* Header Styles */
 
+.container-header {
+    display: flex;
+}
+
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
