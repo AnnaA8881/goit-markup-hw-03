@@ -93,6 +93,7 @@ text-align: left;
 .menu-item-link {
 padding-top: 24px;
 padding-bottom: 24px;
+display: block;
 }
 
 .menu-item-link:hover,
