@@ -69,6 +69,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 text-transform: uppercase;
+}
+
+.page-logo-header {
 margin-right: 76px;
 padding-top: 24px;
 padding-bottom: 24px;
@@ -325,8 +328,7 @@ letter-spacing: 0.02em;
 
 .footer {
    background-color: #2e2f42;
-   padding-top: 100px;
-   padding-bottom: 100px;
+   padding: 100px 0;
 }
 
 .page-logo-footer {
